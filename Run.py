@@ -24,7 +24,7 @@ def baner():
         {p}{b}╚  ╚═╝ {d} ┴─┘┴┴ ┴└─┘└  └─┘┴─┘
 {ab}-----------------------------------------------
 {d}Donate   : {g}https://saweria.co/FahmiDevs
-{d}Message  : {g}https://wa.me/62881024612817
+{d}Message  : {g}https://kontol
 {d}Restapi  : {g}https://ainxbot-id.herokuapp.com
 {d}Youtube  : {g}https://youtube.com/KuhakuTermux
 {d}Github   : {g}https://github.com/Ainx-BOT
@@ -150,7 +150,7 @@ def like(url):
         sleep(2)
         menu()
 def userinfo():
-    print(f"{p}Login as : {c}{name}")
+    print(f"{p}Login as : {c} syam
     print(f"{p}ID       : {c}{id}")
     print(f"{ab}-----------------------------------------------{d}")
 ####################menu######################
