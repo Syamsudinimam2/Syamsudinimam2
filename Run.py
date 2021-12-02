@@ -181,7 +181,7 @@ def pilih_menu():
        print()
        input(f"{d}[{c} Press Enter To Back {d}]")
        os.system("python run.py")
-    elif choice == "02" or choice == "2":
+  
        pid=input(f"{er}Put your url post\n{pr} {ab}>>> {c}")
        print(f"{er}Press {c}ctrl c {p}to stop")
        print(f"{ab}-----------------------------------------------{d}")
@@ -214,12 +214,8 @@ if __name__=="__main__":
    baner()
    usa=useragent()
    ses=requests.Session()
-   ses.headers.update({"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests":"1","user-agent":usa,"accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3","referer":"https://mbasic.facebook.com/","accept-language":"id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7"})
-   try:
-      masuk=login()
-      cokie=masuk["cookie"]
-      id=masuk["id"]
-      name=masuk["name"]
-      menu()
+   ses.headers.update({"Host":"mbasic.facebook.com","cache-control":"max-age=0","upgrade-insecure-requests"     
+   Login aja
+
    except Exception as e:
       sys.exit(f"{er}{e}")
